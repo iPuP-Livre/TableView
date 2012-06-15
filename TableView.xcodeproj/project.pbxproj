@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F9529CA150A70F5009A50B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9529C9150A70F5009A50B0 /* UIKit.framework */; };
+		3F9529CC150A70F5009A50B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9529CB150A70F5009A50B0 /* Foundation.framework */; };
+		3F9529CE150A70F5009A50B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9529CD150A70F5009A50B0 /* CoreGraphics.framework */; };
+		3F9529D4150A70F5009A50B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F9529D2150A70F5009A50B0 /* InfoPlist.strings */; };
+		3F9529D6150A70F5009A50B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9529D5150A70F5009A50B0 /* main.m */; };
+		3F9529DA150A70F6009A50B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9529D9150A70F6009A50B0 /* AppDelegate.m */; };
+		3F9529E2150A7219009A50B0 /* DataListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9529E1150A7219009A50B0 /* DataListViewController.m */; };
+		3F9529EA150A7E80009A50B0 /* DetailListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9529E8150A7E80009A50B0 /* DetailListViewController.m */; };
+		3F9529EB150A7E80009A50B0 /* DetailListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F9529E9150A7E80009A50B0 /* DetailListViewController.xib */; };
+		3F9529EE150A807E009A50B0 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F9529ED150A807E009A50B0 /* CustomCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F9529C5150A70F5009A50B0 /* TableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F9529C9150A70F5009A50B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3F9529CB150A70F5009A50B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F9529CD150A70F5009A50B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3F9529D1150A70F5009A50B0 /* TableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableView-Info.plist"; sourceTree = "<group>"; };
+		3F9529D3150A70F5009A50B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F9529D5150A70F5009A50B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F9529D7150A70F5009A50B0 /* TableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TableView-Prefix.pch"; sourceTree = "<group>"; };
+		3F9529D8150A70F6009A50B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F9529D9150A70F6009A50B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F9529E0150A7219009A50B0 /* DataListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataListViewController.h; sourceTree = "<group>"; };
+		3F9529E1150A7219009A50B0 /* DataListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataListViewController.m; sourceTree = "<group>"; };
+		3F9529E7150A7E80009A50B0 /* DetailListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailListViewController.h; path = ../DetailListViewController.h; sourceTree = "<group>"; };
+		3F9529E8150A7E80009A50B0 /* DetailListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailListViewController.m; path = ../DetailListViewController.m; sourceTree = "<group>"; };
+		3F9529E9150A7E80009A50B0 /* DetailListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetailListViewController.xib; path = ../DetailListViewController.xib; sourceTree = "<group>"; };
+		3F9529EC150A807E009A50B0 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		3F9529ED150A807E009A50B0 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F9529C2150A70F5009A50B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9529CA150A70F5009A50B0 /* UIKit.framework in Frameworks */,
+				3F9529CC150A70F5009A50B0 /* Foundation.framework in Frameworks */,
+				3F9529CE150A70F5009A50B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F9529BA150A70F5009A50B0 = {
+			isa = PBXGroup;
+			children = (
+				3F9529CF150A70F5009A50B0 /* TableView */,
+				3F9529C8150A70F5009A50B0 /* Frameworks */,
+				3F9529C6150A70F5009A50B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F9529C6150A70F5009A50B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F9529C5150A70F5009A50B0 /* TableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F9529C8150A70F5009A50B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F9529C9150A70F5009A50B0 /* UIKit.framework */,
+				3F9529CB150A70F5009A50B0 /* Foundation.framework */,
+				3F9529CD150A70F5009A50B0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F9529CF150A70F5009A50B0 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3F9529D8150A70F6009A50B0 /* AppDelegate.h */,
+				3F9529D9150A70F6009A50B0 /* AppDelegate.m */,
+				3F9529D0150A70F5009A50B0 /* Supporting Files */,
+				3F9529E0150A7219009A50B0 /* DataListViewController.h */,
+				3F9529E1150A7219009A50B0 /* DataListViewController.m */,
+				3F9529EC150A807E009A50B0 /* CustomCell.h */,
+				3F9529ED150A807E009A50B0 /* CustomCell.m */,
+				3F9529E7150A7E80009A50B0 /* DetailListViewController.h */,
+				3F9529E8150A7E80009A50B0 /* DetailListViewController.m */,
+				3F9529E9150A7E80009A50B0 /* DetailListViewController.xib */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		3F9529D0150A70F5009A50B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F9529D1150A70F5009A50B0 /* TableView-Info.plist */,
+				3F9529D2150A70F5009A50B0 /* InfoPlist.strings */,
+				3F9529D5150A70F5009A50B0 /* main.m */,
+				3F9529D7150A70F5009A50B0 /* TableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F9529C4150A70F5009A50B0 /* TableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9529DD150A70F6009A50B0 /* Build configuration list for PBXNativeTarget "TableView" */;
+			buildPhases = (
+				3F9529C1150A70F5009A50B0 /* Sources */,
+				3F9529C2150A70F5009A50B0 /* Frameworks */,
+				3F9529C3150A70F5009A50B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableView;
+			productName = TableView;
+			productReference = 3F9529C5150A70F5009A50B0 /* TableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F9529BC150A70F5009A50B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 3F9529BF150A70F5009A50B0 /* Build configuration list for PBXProject "TableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F9529BA150A70F5009A50B0;
+			productRefGroup = 3F9529C6150A70F5009A50B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F9529C4150A70F5009A50B0 /* TableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F9529C3150A70F5009A50B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9529D4150A70F5009A50B0 /* InfoPlist.strings in Resources */,
+				3F9529EB150A7E80009A50B0 /* DetailListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F9529C1150A70F5009A50B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9529D6150A70F5009A50B0 /* main.m in Sources */,
+				3F9529DA150A70F6009A50B0 /* AppDelegate.m in Sources */,
+				3F9529E2150A7219009A50B0 /* DataListViewController.m in Sources */,
+				3F9529EA150A7E80009A50B0 /* DetailListViewController.m in Sources */,
+				3F9529EE150A807E009A50B0 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F9529D2150A70F5009A50B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F9529D3150A70F5009A50B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F9529DB150A70F6009A50B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F9529DC150A70F6009A50B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9529DE150A70F6009A50B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView/TableView-Prefix.pch";
+				INFOPLIST_FILE = "TableView/TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3F9529DF150A70F6009A50B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TableView/TableView-Prefix.pch";
+				INFOPLIST_FILE = "TableView/TableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9529BF150A70F5009A50B0 /* Build configuration list for PBXProject "TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9529DB150A70F6009A50B0 /* Debug */,
+				3F9529DC150A70F6009A50B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F9529DD150A70F6009A50B0 /* Build configuration list for PBXNativeTarget "TableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9529DE150A70F6009A50B0 /* Debug */,
+				3F9529DF150A70F6009A50B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F9529BC150A70F5009A50B0 /* Project object */;
+}
